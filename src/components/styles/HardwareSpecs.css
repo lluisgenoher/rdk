@@ -1,0 +1,132 @@
+.tech-spec {
+  animation: appear 1s ease 1 both;
+}
+
+@keyframes appear {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-container {
+    display: grid;
+  }
+  .stats-container .tech-spec {
+    order: 1;
+  }
+  .tech-spec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em 1rem;
+    padding: 0 2em;
+  }
+  .tech-spec img {
+    display: block;
+    margin: 0 3em;
+    width: 24%;
+  }
+  .stats-container .tech-img {
+    display: block;
+    margin: 0;
+  }
+  .li-text {
+    text-align: center;
+    width: 26%;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.3em;
+  }
+  .tech-spec li {
+    width: 90%;
+  }
+  .stats-container .tech-spec {
+    display: grid;
+    position: relative;
+    min-height: 100%;
+    min-height: 40vh;
+    padding-top: 30em;
+    padding-bottom: 5em;
+  }
+  .img-desktop {
+    display: none;
+  }
+  .tech-img .app {
+    position: absolute;
+    width: 45%;
+    margin: 3em 10em;
+  }
+  .tech-img .product {
+    position: absolute;
+    width: 100%;
+  }
+}
+.stats-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #fef9f7;
+  background-image: url("../../images/layer.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.tech-spec .li-text {
+  min-height: 10vh;
+  position: absolute;
+  margin: 0.5em;
+}
+@media (min-width: 768px) {
+  .stats-container .tech-spec {
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40%;
+  }
+  .stats-container .tech-spec {
+    display: inline-block;
+    position: relative;
+    min-height: 100%;
+  }
+  .stats-container ul {
+    padding: 10em 17em;
+    width: 100%;
+  }
+  .stats-container li {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 100%;
+    margin: 4em;
+    color: #111111;
+  }
+  .stats-container img {
+    width: 5%;
+    margin: 0.1em 1em;
+  }
+  .stats-container .tech-img {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 10em 0;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+  }
+  .img-mobile {
+    display: none;
+  }
+}
+
+.tech-img img {
+  width: 70%;
+}

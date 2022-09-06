@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -34,5 +30,63 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.btn-book-now,
+.btn-know-more {
+  font-family: "Montserrat";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1.1em;
+}
+
+.btn-book-now {
+  color: white;
+  background: #ee7333;
+  align-items: center;
+  padding: 1em 2em;
+  gap: 1em;
+
+  border: white;
+  border-radius: 1.5em;
+}
+.btn-know-more {
+  color: #ee7333;
+  background: white;
+  align-items: center;
+  padding: 1em 2em;
+  gap: 2em;
+  margin: 1em;
+  border: 1px solid #ee7333;
+  border-radius: 28px;
+}
+
+ul {
+  list-style-type: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.arrow {
+  display: inherit;
+  margin: -0.3em 0em -0.3em 1.1em;
+}
+.a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.btn-know-more a {
+  color: #ee7333;
+  text-decoration: none;
+}
+@media (max-width: 480px) {
+  .btn-book-now,
+  .btn-know-more {
+    width: 100%;
+  }
+  .btn-know-more {
+    margin: 1em 0;
   }
 }

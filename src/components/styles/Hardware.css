@@ -1,0 +1,122 @@
+.btn-know-more {
+  background: #fef9f7;
+}
+
+.tech-container .tech-carousel {
+  display: inline-block;
+  position: relative;
+  min-height: 100%;
+}
+.tech-carouself img {
+  width: 70%;
+}
+.tech-container .tech-info {
+  display: inline-block;
+  position: relative;
+}
+
+.tech-container .slide {
+  position: relative;
+  border-radius: 2em;
+  margin: 0em 0;
+}
+
+@media (min-width: 768px) {
+  .tech-container .tech-carousel .ellipse {
+    position: absolute;
+    margin: -5em 2em;
+    width: 55%;
+  }
+  .tech-container .tech-carousel {
+    float: left;
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 25vh;
+    width: 64%;
+    margin: 25em 13.5em;
+  }
+  .tech-info .p-desktop {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 150%;
+    width: 68%;
+    color: #111111;
+    display: block;
+  }
+  .tech-info .p-mobile {
+    display: none;
+  }
+  .grid-btn {
+    margin: 0em;
+  }
+  .tech-container .tech-info {
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 36%;
+    margin: 25em 0;
+  }
+  .tech-info .h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .tech-container {
+    min-height: 120vh;
+  }
+}
+.tech-container {
+  position: relative;
+  width: 100%;
+  background: #fef9f7;
+}
+@media (max-width: 480px) {
+  .tech-container {
+    padding: 8em 0 4em 0;
+  }
+  .tech-container .tech-carousel {
+    margin: 0 0 2em 0;
+  }
+  .tech-container .ellipse {
+    position: absolute;
+    margin: -2em 1em;
+    width: 85%;
+  }
+  .tech-container .slide {
+    width: 100%;
+  }
+
+  .tech-carousel {
+    padding: 0 2em;
+  }
+
+  .tech-container .tech-info {
+    padding: 0 2em;
+  }
+  .tech-info .p-mobile {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    width: 100%;
+    color: #111111;
+  }
+  .tech-info .p-desktop {
+    display: none;
+  }
+}

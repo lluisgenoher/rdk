@@ -1,0 +1,119 @@
+.footer {
+  background: #111111;
+  color: white;
+  padding: 2rem 2rem;
+  position: relative;
+}
+@media (max-width: 480px) {
+  .footer-main {
+    margin: -2em 0.5em;
+  }
+  .phone-logo {
+    width: 15%;
+  }
+  .footer .policies {
+    display: contents;
+  }
+  ul {
+    display: contents;
+  }
+  li {
+    margin: 0.5em 0;
+  }
+  .li-faq {
+    display: none;
+  }
+  .footer-column {
+    margin: 2em 0;
+  }
+  .social {
+    margin: 0 -1em;
+  }
+  .social-media {
+    margin: 0 0.5em;
+  }
+  .social .facebook {
+    width: 4%;
+  }
+  .social .instagram {
+    width: 7%;
+  }
+  .social .youtube {
+    width: 8%;
+  }
+  .payment {
+    width: 75%;
+  }
+}
+@media (min-width: 768px) {
+  .footer {
+    background: #111111;
+    color: white;
+    padding: 2rem 2rem;
+    position: relative;
+  }
+  .footer .container {
+    margin: 0 4em;
+  }
+  .footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  .footer a:hover {
+    color: #ee7333;
+    text-decoration: none;
+  }
+  .footer-main {
+    display: flex;
+  }
+
+  .footer-column {
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 0 3em;
+    display: inline-block;
+  }
+  .footer-link {
+    display: block;
+    width: max-content;
+    padding: 0.2em 0.6em;
+    margin: 0 auto;
+  }
+
+  .footer .social-media {
+    margin: 1em 1em;
+  }
+  .footer .social-media:hover {
+    cursor: pointer;
+  }
+  .footer .payment {
+    width: 80%;
+  }
+
+  .footer h3 {
+    margin: 0.2em 0;
+  }
+  .footer ul {
+    margin: 0 0;
+  }
+  .footer li {
+    margin: 0.7em;
+  }
+  .footer .policies {
+    margin: inherit;
+  }
+
+  .footer .phone-logo {
+    margin: 0 -39em;
+  }
+  .footer p {
+    line-height: 1.5em;
+    min-height: 4.5em;
+    float: left;
+    width: 96%; /*close enough*/
+  }
+  .contact {
+    display: none;
+  }
+}
